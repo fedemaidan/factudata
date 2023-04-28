@@ -1,0 +1,10 @@
+ de los json
+
+{
+"nombre_emisor": "Mafp Consultores SRL",
+"condicion_iva": "Responsable Inscripto",
+"numero_factura": "0003-00000377",
+"fecha": "31/03/2023",
+"valor_neto_sin_iva": "12.214,04",
+"total": "14.778,99"
+}

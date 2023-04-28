@@ -1,0 +1,10 @@
+. 
+
+{
+"nombre_emisor": "ELECTROCITY ARGENTINA S.A.",
+"condicion_iva": "Inscripto",
+"numero_factura": "000800044734",
+"fecha": "17/03/2023",
+"valor_neto_sin_iva": "49,949.54",
+"total": "60,438.94"
+}

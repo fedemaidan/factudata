@@ -1,0 +1,10 @@
+.
+
+{ 
+    "nombre_emisor": "VECING Y CIA SRL",
+    "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+    "numero_factura": "00010-00002059",
+    "fecha": "03/03/2023",
+    "valor_neto_sin_iva": "5085.18",
+    "total": "6284.01"
+}

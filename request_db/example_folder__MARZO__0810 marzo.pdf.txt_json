@@ -1,0 +1,10 @@
+.
+
+{
+    "nombre_emisor": "Movistar", 
+    "condicion_iva": "IVA - Resp. Inscripto - CUIT: 20-13800610-8", 
+    "numero_factura": "0949-02841179", 
+    "fecha": "12/03/2023", 
+    "valor_neto_sin_iva": "77,44", 
+    "total": "5.415,86" 
+}

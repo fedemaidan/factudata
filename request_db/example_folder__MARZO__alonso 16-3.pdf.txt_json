@@ -1,0 +1,10 @@
+.
+
+'{
+"nombre_emisor": "ALONSO HNOS. SIRENAS S.A.", 
+"condicion_iva": "Responsable Inscripto", 
+"numero_factura": "A00003 - 00025131", 
+"fecha": "16 03 23", 
+"valor_neto_sin_iva": "229,675.02", 
+"total": "45570.44"
+}'

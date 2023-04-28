@@ -1,0 +1,10 @@
+
+
+{ 
+"nombre_emisor": "Telefonica de Argentina S.A.", 
+"condicion_iva": "IVA RESPONSABLE INSCRIPTO", 
+"numero_factura": "0949-02870160", 
+"fecha": "12/03/2023",
+"valor_neto_sin_iva": "1.980,00",
+"total": "2.613,60" 
+}

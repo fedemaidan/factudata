@@ -1,0 +1,10 @@
+:
+
+{
+  "nombre_emisor": "TECNIMAS S.A.", 
+  "condicion_iva": "Responsable inscripto", 
+  "numero_factura": "0101-00004233", 
+  "fecha": "10/3/2023",
+  "valor_neto_sin_iva": "21.060,00",
+  "total": "38.827,69"
+}

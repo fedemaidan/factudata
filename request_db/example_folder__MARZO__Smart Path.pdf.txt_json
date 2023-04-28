@@ -1,0 +1,10 @@
+.
+
+{
+"nombre_emisor": "Smart Path SAS",
+"condicion_iva": "Responsable Inscripto",
+"numero_factura": "A-00001-00000260",
+"fecha": "03/03/2023",
+"valor_neto_sin_iva": "560.00",
+"total": "677.60" 
+}

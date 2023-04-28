@@ -1,0 +1,10 @@
+. 
+
+{
+"nombre_emisor": "Mafp Tecnologia S.L",
+"condicion_iva": "Responsable Inscripto", 
+"numero_factura": "0003-00007095",
+"fecha": "31/03/2023",
+"valor_neto_sin_iva": "232.907,73",
+"total": "277.721,97"
+}

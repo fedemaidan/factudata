@@ -1,0 +1,10 @@
+ de los json.
+
+{
+"nombre_emisor": "OPORTO ADVS.R.L", 
+"condicion_iva": "IVA Responsable Inscripto",
+"numero_factura": "00004299",
+"fecha": "27/03/2023",
+"valor_neto_sin_iva": "29500,00",
+"total": "35695,00"
+}

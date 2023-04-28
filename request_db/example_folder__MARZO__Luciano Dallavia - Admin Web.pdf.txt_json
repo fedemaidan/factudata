@@ -1,0 +1,10 @@
+. 
+
+{
+"nombre_emisor": "LUCIANODALLAVIA (.NET)",
+"condicion_iva": "Responsable Monotributo",
+"numero_factura": "00000259",
+"fecha": "28/02/2023",
+"valor_neto_sin_iva": "14000,00",
+"total": "14000,00"
+}

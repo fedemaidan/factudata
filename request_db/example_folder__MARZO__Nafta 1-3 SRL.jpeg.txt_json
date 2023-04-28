@@ -1,0 +1,10 @@
+ de los json.
+
+{
+"nombre_emisor": "Walter Pe Tao Tae Hi",
+"condicion_iva": "Responsable Inscripto",
+"numero_factura": "1003/2023",
+"fecha": "01/03/2023",
+"valor_neto_sin_iva": "1950.48",
+"total": "11262.15"
+}

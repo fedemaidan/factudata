@@ -1,0 +1,10 @@
+:
+
+{
+"nombre_emisor": "Empresa A", 
+"condicion_iva": "Responsable Inscripto",
+"numero_factura": "123456", 
+"fecha": "15/12/2019", 
+"valor_neto_sin_iva": "1000", 
+"total": "1250"
+}
