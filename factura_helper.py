@@ -1,4 +1,3 @@
-from PIL import Image
 import pytesseract
 from extraer_pdf import pdf_text
 from chatgpt_helper import pedirle_datos_a_chatgpt
