@@ -14,15 +14,16 @@ def dame_prompt(texto):
 
 def pedirle_datos_a_chatgpt(texto):
     prompt = dame_prompt(texto)
-    url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
+    url = "https://api.openai.com/v1/completions"
 
     # Definir los parámetros de la solicitud
     params = {
+        "model": "text-davinci-003",
         "prompt": prompt,
         "max_tokens": 1000,
-        "temperature": 0.7
+        "temperature": 0.2
     }
-    print(token)
+    
     # Agregar la clave de API a los encabezados de la solicitud
     headers = {
         "Authorization": "Bearer " + token,

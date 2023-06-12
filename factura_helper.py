@@ -19,6 +19,7 @@ def guardar_json_txt(path, json_txt):
         file.write(json_txt)
 
 def chatgpt_saved(nombre_archivo):
+    return None
     custom_path = create_custom_path(nombre_archivo)
     if os.path.exists(custom_path):
         with open(custom_path, 'r') as archivo:
@@ -45,14 +46,19 @@ def borrar_previo_json(texto):
 def dame_tipo(string):
     return string[-3:]
 
+def dame_texto_desde_path(path):
+    if (dame_tipo(path) == "pdf" or dame_tipo(path) == "PDF"):
+            texto = pdf_text(path)
+    else:
+        # Abrimos la imagen
+        im = Image.open(path)
+        texto = pytesseract.image_to_string(im)
+    
+    return texto
+
 def dame_datos_de_factura(path):
     try:
-        if (dame_tipo(path) == "pdf" or dame_tipo(path) == "PDF"):
-            texto = pdf_text(path)
-        else:
-            # Abrimos la imagen
-            im = Image.open(path)
-            texto = pytesseract.image_to_string(im)
+        texto = dame_texto_desde_path(path)
         chatgpt_response = chatgpt_saved(path)
         if not chatgpt_response:
             print("Debo pedir datos a chatgpt")

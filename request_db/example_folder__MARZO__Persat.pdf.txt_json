@@ -1,10 +1,10 @@
-
+.
 
 {
-"nombre_emisor": "PERSAT SRL", 
-"condicion_iva": "IVA Responsable Inscripto", 
-"numero_factura": "00004-00022454", 
-"fecha": "01/03/2023", 
-"valor_neto_sin_iva": "15.584,00", 
-"total": "$ 18.856,64"
+"nombre_emisor": "Persat SRL",
+"condicion_iva": "IVA Responsable Inscripto",
+"numero_factura": "00004-00022454",
+"fecha": "01/03/2023",
+"valor_neto_sin_iva": "15.584,00",
+"total": "18.856,64"
 }
