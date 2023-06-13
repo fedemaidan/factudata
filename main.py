@@ -1,5 +1,5 @@
 import argparse
-from factura_helper import dame_datos_de_factura
+# from factura_helper import dame_datos_de_factura
 import os
 import sys
 import csv
@@ -16,10 +16,11 @@ def hello_world(request):
     request_json = request.get_json()
     if request.args and 'filename' in request.args:
         filename = request.args.get('filename')
-        row = dame_datos_de_factura(filename)
+        # row = dame_datos_de_factura(filename)
         return request.args.get('filename')
     elif request_json and 'message' in request_json:
-        return request_json['message']
+        # row = dame_datos_de_factura(filename)
+        return request.args.get('filename')
     else:
         return f'Hello World!'
 
